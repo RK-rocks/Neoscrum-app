@@ -1,65 +1,106 @@
-html, body {
+html,
+body {
     height: 100%;
-    width:100% ;
+    width: 100%;
 }
+
 a {
-    text-decoration: none;  
+    text-decoration: none;
 }
+
 .heading {
-text-align: center;
-margin-top: 2%;
+    text-align: center;
+    margin-top: 2%;
 }
+
 .scrum {
-color: red;
+    color: red;
 }
-.loginForm { 
-    display: flex;
-    justify-content: center; 
-    margin:3% 0% 0% 0%; 
-}
-.receiverForm {
-    border: 0px gray solid; 
-padding: 0%;  
-margin: 0%;
-box-shadow: 2% 2% 2%; 
-}
+
 .loginForm {
-border: 0px gray solid; 
-padding: 0%;  
-margin: 0%;
-box-shadow: 2% 2% 2%; 
+    display: flex;
+    justify-content: center;
+    margin: 3% 0% 0% 0%;
 }
+
+.receiverForm {
+    border: 0px gray solid;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 2% 2% 2%;
+}
+
+.loginForm {
+    border: 0px gray solid;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 2% 2% 2%;
+}
+
 .registration {
     text-align: left;
 }
+
 .list {
     text-align: right
 }
+
 #collapsibleNavbar {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
+
 button {
     margin-right: 10px;
 }
+
 .egodate {
     float: right;
 }
+
 .card1 {
     margin: 2%;
-   
+
 }
 
 .carddiv {
     width: 100%;
     justify-content: center;
 }
+
 .card-img-top {
     width: 50%;
     justify-content: center;
-    margin:1% 0% 1% 20%;
+    margin: 1% 0% 1% 20%;
 }
+
 textarea {
     width: 90%;
     height: 90px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.text-red {
+    color: red;
+}
+
+.btn-outline-success {
+    color: #28a745 !important;
+    border-color: #28a745;
+}
+
+.btn-outline-danger {
+    color: #dc3545 !important;
+    border-color: #dc3545;
+}
+
+.btn-outline-success:hover {
+    color: #fff !important;
+}
+
+.btn-outline-danger:hover {
+    color: #fff !important;
 }
